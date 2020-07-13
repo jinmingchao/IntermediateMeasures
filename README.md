@@ -16,3 +16,6 @@ Some of the key changes made to MOA include changes in:
 Important new classes include:
 * ExponentialDecayPerformanceEvaluator.java: a prioritised performance measure i.e. the intermediate measure used to evaluate multiple predictions made for an instance while waiting for its true label by calculating a weighted average of binned measure values
 * MaximumPerformanceEvaluator.java: a maximum performance measure i.e. the intermediate measure used to evaluate multiple predictions made for an instance while waiting for its true label by calculating maximum of binned measure values
+
+## Sample execution
+For sample input data and details on how to execute this MOA version to calculate intermediate performance measures, please refer to [examples](./examples) folder
